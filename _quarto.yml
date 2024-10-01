@@ -8,11 +8,19 @@ project:
 
 website:
   title: "InterACT"
+  search: false
+  back-to-top-navigation: true
+  repo-url: https://github.com/bips-hb/interact-workshop
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
         text: News
       - about.qmd
+    tools:
+      - icon: github
+        href: https://github.com/bips-hb/interact-workshop
+  # page-footer: "CC BY-NC-SA 4.0 2024, the InterACT workshop organizers" 
 
 format:
   html:
