@@ -1,0 +1,10 @@
+---
+title: "InterACT Workshop on Interpretable Machine Learning"
+---
+
+
+InterACT #2 was held September 23 -- 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology --- BIPS in Bremen, Germany.
+
+![](img/interact-2-group.jpg){fig-alt="A group photo of the InterACT #2 members in front of the BIPS building" fig-align="center" width=80%}
+
+InterACT #3 will (most likely) be held in September 2025 in Munich!

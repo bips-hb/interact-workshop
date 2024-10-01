@@ -1,0 +1,26 @@
+project:
+  type: website
+  preview:
+    port: 4200
+    browser: false
+    watch-inputs: true
+
+
+website:
+  title: "InterACT"
+  navbar:
+    left:
+      - href: index.qmd
+        text: News
+      - about.qmd
+
+format:
+  html:
+    theme: 
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]
+    toc: true
+    bibliography: references.bib
+
+
+

@@ -1,0 +1,17 @@
+---
+title: "About InterACT"
+---
+
+**InterACT** started as a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the chair of statistical learning and data science (SLDS) of LMU Munich and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
+
+The workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.
+
+InterACT #1 was held November 13th -- 16th in Munich.  
+Among many brainstorming session, it spawned the successfully published "CountARFactuals" project [@dandl2024countarfactuals], bridging counterfactual explanations and tree-based generative modeling.
+
+
+[slds-iml]: https://www.slds.stat.uni-muenchen.de/research/explainable-ai.html
+[slds]: https://www.slds.stat.uni-muenchen.de/
+[lmu]: https://www.lmu.de/en/
+[emmy]: https://www.bips-institut.de/das-institut/abteilungen/biometrie-und-edv/emmy-noether-nachwuchsgruppe-beyond-prediction-statistical-inference-with-machine-learning.html
+[bips]: https://www.bips-institut.de/en/index.html
