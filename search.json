@@ -4,13 +4,13 @@
     "href": "about.html",
     "title": "About InterACT",
     "section": "",
-    "text": "InterACT started as a collaborative workshop between the interpretable machine learning / explainable AI group of the chair of statistical learning and data science (SLDS) of LMU Munich and the Emmy Noether Junior Research Group of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.\nThe workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.\nInterACT #1 was held November 13th – 16th in Munich.\nAmong many brainstorming session, it spawned the successfully published “CountARFactuals” project (Dandl et al. 2024), bridging counterfactual explanations and tree-based generative modeling.\n\n\n\n\nReferences\n\nDandl, Susanne, Kristin Blesch, Timo Freiesleben, Gunnar König, Jan Kapar, Bernd Bischl, and Marvin N. Wright. 2024. “CountARFactuals – Generating Plausible Model-Agnostic Counterfactual Explanations with Adversarial Random Forests.” In Explainable Artificial Intelligence, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, 2155:85–107. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-63800-8_5."
+    "text": "InterACT started as a collaborative workshop between the interpretable machine learning / explainable AI group of the chair of statistical learning and data science (SLDS) of LMU Munich and the Emmy Noether Junior Research Group of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.\nThe workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.\nInterACT #1 was held November 13th – 16th in Munich.\nAmong many brainstorming session, it spawned the successfully published “CountARFactuals” project (Dandl et al. 2024), bridging counterfactual explanations and tree-based generative modeling.\n\n\n\n\n Back to topReferences\n\nDandl, Susanne, Kristin Blesch, Timo Freiesleben, Gunnar König, Jan Kapar, Bernd Bischl, and Marvin N. Wright. 2024. “CountARFactuals – Generating Plausible Model-Agnostic Counterfactual Explanations with Adversarial Random Forests.” In Explainable Artificial Intelligence, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, 2155:85–107. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-63800-8_5."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "InterACT Workshop on Interpretable Machine Learning",
     "section": "",
-    "text": "InterACT #2 was held September 23 – 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology — BIPS in Bremen, Germany.\n\n\n\n\n\nInterACT #3 will (most likely) be held in September 2025 in Munich!"
+    "text": "InterACT #2 was held September 23 – 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology — BIPS in Bremen, Germany.\n\n\n\n\n\nInterACT #3 will (most likely) be held in September 2025 in Munich!\n\n\n\n Back to top"
   }
 ]

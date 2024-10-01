@@ -1,0 +1,1 @@
+Sitemap: https://bips-hb.github.io/interact-workshop/sitemap.xml
