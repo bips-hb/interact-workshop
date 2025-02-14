@@ -27,8 +27,5 @@ format:
     theme: 
       light: [flatly, custom.scss]
       dark: [darkly, custom.scss]
-    toc: true
+    toc: false
     bibliography: references.bib
-
-
-

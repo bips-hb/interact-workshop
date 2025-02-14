@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-**InterACT** started as a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the chair of statistical learning and data science (SLDS) of [LMU Munich][lmu] and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
+**InterACT** is a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the chair of statistical learning and data science (SLDS) of [LMU Munich][lmu] and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
 
 The workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.
 
