@@ -1,17 +1,48 @@
 ---
-title: "About InterACT"
+title: "About"
 ---
 
-**InterACT** started as a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the chair of statistical learning and data science (SLDS) of LMU Munich and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
+**InterACT** started as a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the chair of statistical learning and data science (SLDS) of [LMU Munich][lmu] and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
 
 The workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.
 
-InterACT #1 was held November 13th -- 16th in Munich.  
+## Past Workshops
+
+InterACT #1 was held November 13th -- 16th 2023 in Munich.  
 Among many brainstorming session, it spawned the successfully published "CountARFactuals" project [@dandl2024countarfactuals], bridging counterfactual explanations and tree-based generative modeling.
 
+InterACT #2 was held September 23rd -- 26th 2024 in Bremen and directly supported by the [Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen][mmmigs].
+
+
+
+## Supporting Organizations
+
+InterACT is made possible by the following organizations whose supproted is greatly appreciated:
+
+::: organizations
+
+::: {layout-ncol=3}
+[![LMU Munich](img/logos/lmu.svg)][lmu]
+
+[![Leibniz Institute for Prevention Research and Epidemiology - BIPS](img/logos/bips.png)][bips]
+
+[![University of Bremen](img/logos/uni-bremen.webp)][unibremen]
+
+[![Minds, Media, Machines](img/logos/mmm.png)][mmm]
+
+[![Munich Center for Machine Learning](img/logos/mcml.png)][mcml]
+
+:::
+
+:::
 
 [slds-iml]: https://www.slds.stat.uni-muenchen.de/research/explainable-ai.html
 [slds]: https://www.slds.stat.uni-muenchen.de/
 [lmu]: https://www.lmu.de/en/
 [emmy]: https://www.bips-institut.de/das-institut/abteilungen/biometrie-und-edv/emmy-noether-nachwuchsgruppe-beyond-prediction-statistical-inference-with-machine-learning.html
 [bips]: https://www.bips-institut.de/en/index.html
+
+[mcml]: https://mcml.ai
+[mmm]: https://minds-media-machines.de
+[mmmigs]: https://minds-media-machines.de/en/promotionsprogramme/
+[unibremen]: https://www.uni-bremen.de/

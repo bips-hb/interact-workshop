@@ -4,7 +4,11 @@ $headings-font-weight: 500 !default;
 
 /*-- scss:rules --*/
 
-
 img {
-  border-radius: 1%;
+  border-radius: 3%;
+}
+
+.organizations > .figure-img {
+  max-width: 100px;
+  max-height: 100px;
 }
