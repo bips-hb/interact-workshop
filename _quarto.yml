@@ -20,7 +20,8 @@ website:
     tools:
       - icon: github
         href: https://github.com/bips-hb/interact-workshop
-  # page-footer: "CC BY-NC-SA 4.0 2024, the InterACT workshop organizers" 
+  page-footer: >
+      CC BY-NC-SA 4.0 2025, the InterACT workshop organizers
 
 format:
   html:
@@ -29,3 +30,4 @@ format:
       dark: [darkly, custom.scss]
     toc: false
     bibliography: references.bib
+    # email-obfuscation: javscript
