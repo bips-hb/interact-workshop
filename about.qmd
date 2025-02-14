@@ -21,17 +21,16 @@ InterACT is made possible by the following organizations whose supproted is grea
 
 ::: organizations
 
-::: {layout-ncol=3}
+::: {layout-ncol=3 layout-valign="center"}
 [![LMU Munich](img/logos/lmu.svg)][lmu]
 
 [![Leibniz Institute for Prevention Research and Epidemiology - BIPS](img/logos/bips.png)][bips]
 
 [![University of Bremen](img/logos/uni-bremen.webp)][unibremen]
 
-[![Minds, Media, Machines](img/logos/mmm.png)][mmm]
-
 [![Munich Center for Machine Learning](img/logos/mcml.png)][mcml]
 
+[![Minds, Media, Machines](img/logos/mmm.png)][mmm]
 :::
 
 :::
