@@ -11,13 +11,14 @@ The workshop is aimed primarily at PhD students in the field of interpretable ma
 InterACT #1 was held November 13th -- 16th 2023 in Munich.  
 Among many brainstorming session, it spawned the successfully published "CountARFactuals" project [@dandl2024countarfactuals], bridging counterfactual explanations and tree-based generative modeling.
 
-InterACT #2 was held September 23rd -- 26th 2024 in Bremen and directly supported by the [Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen][mmmigs].
+InterACT #2 was held September 23rd -- 26th 2024 in Bremen.
+It was directly supported by the [Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen][mmmigs].
 
 
 
 ## Supporting Organizations
 
-InterACT is made possible by the following organizations whose supproted is greatly appreciated:
+InterACT is made possible by the following organizations whose support is greatly appreciated:
 
 ::: organizations
 
