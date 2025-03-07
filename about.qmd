@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-**InterACT** is a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] of the Chair of Statistical Learning and Data Science (SLDS) of [LMU Munich][lmu] lead by [Prof. Dr. Bernd Bischl][bernd] and the [Emmy Noether Junior Research Group][emmy] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS lead by [Prof. Dr. Marvin N. Wright][marvin].
+**InterACT** is a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] lead by [Dr. Giuseppe Casalicchio][giuseppe] of the Chair of Statistical Learning and Data Science (SLDS) of [LMU Munich][lmu] lead by [Prof. Dr. Bernd Bischl][bernd] and the [Emmy Noether Junior Research Group][emmy] lead by [Prof. Dr. Marvin N. Wright][marvin] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
 
 The workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers.
 
@@ -39,6 +39,7 @@ InterACT is made possible by the following organizations whose support is greatl
 
 <!-- Links -->
 [bernd]: https://www.slds.stat.uni-muenchen.de/people/bischl/
+[giuseppe]: https://www.slds.stat.uni-muenchen.de/people/casalicchio/
 [marvin]: https://www.bips-institut.de/en/contact/staff/research-fellow.html?MAid=1110&cHash=9562bd57df9719623f7e6fcd7e1c693b
 
 [slds-iml]: https://www.slds.stat.uni-muenchen.de/research/explainable-ai.html
