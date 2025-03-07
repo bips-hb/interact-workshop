@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "InterACT Workshop on Interpretable Machine Learning",
-    "section": "",
-    "text": "InterACT #2 was held September 23 – 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology — BIPS in Bremen, Germany.\n\n\n\n\n\nInterACT #3 will be held September 1st – 4th 2025 in Munich!\n\n\n\n Back to top"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "InterACT is a collaborative workshop between the interpretable machine learning / explainable AI group of the Chair of Statistical Learning and Data Science (SLDS) of LMU Munich lead by Prof. Dr. Bernd Bischl and the Emmy Noether Junior Research Group of the Leibniz Institute for Prevention Research and Epidemiology - BIPS lead by Prof. Dr. Marvin N. Wright.\nThe workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers."
+    "text": "InterACT is a collaborative workshop between the interpretable machine learning / explainable AI group lead by Dr. Giuseppe Casalicchio of the Chair of Statistical Learning and Data Science (SLDS) of LMU Munich lead by Prof. Dr. Bernd Bischl and the Emmy Noether Junior Research Group lead by Prof. Dr. Marvin N. Wright of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.\nThe workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers."
   },
   {
     "objectID": "about.html#past-workshops",
@@ -26,5 +19,12 @@
     "title": "About",
     "section": "Supporting Organizations",
     "text": "Supporting Organizations\nInterACT is made possible by the following organizations whose support is greatly appreciated:\n\n\n\n\n\n\n\n\n\n\nLMU Munich\n\n\n\n\n\n\n\nLeibniz Institute for Prevention Research and Epidemiology - BIPS\n\n\n\n\n\n\n\nUniversity of Bremen\n\n\n\n\n\n\n\n\n\nMunich Center for Machine Learning\n\n\n\n\n\n\n\nMinds, Media, Machines"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "InterACT Workshop on Interpretable Machine Learning",
+    "section": "",
+    "text": "InterACT #2 was held September 23 – 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology — BIPS in Bremen, Germany.\n\n\n\n\n\nInterACT #3 will be held September 1st – 4th 2025 in Munich!\n\n\n\n Back to top"
   }
 ]
