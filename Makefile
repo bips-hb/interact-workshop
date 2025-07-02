@@ -1,0 +1,2 @@
+site:
+	quarto render
