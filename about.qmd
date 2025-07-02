@@ -1,5 +1,7 @@
 ---
 title: "About"
+nocite: |
+  @*
 ---
 
 **InterACT** is a collaborative workshop between the [interpretable machine learning / explainable AI group][slds-iml] lead by [Dr. Giuseppe Casalicchio][giuseppe] of the Chair of Statistical Learning and Data Science (SLDS) of [LMU Munich][lmu] lead by [Prof. Dr. Bernd Bischl][bernd] and the [Emmy Noether Junior Research Group][emmy] lead by [Prof. Dr. Marvin N. Wright][marvin] of the Leibniz Institute for Prevention Research and Epidemiology - BIPS.
@@ -14,6 +16,11 @@ Among many brainstorming session, it spawned the successfully published "CountAR
 InterACT #2 was held September 23rd -- 26th 2024 in Bremen.
 It was directly supported by the [Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen][mmmigs], where [@kapar2025whatswrongsynthetictabular] combined generative modeling with interpretable machine learning.
 
+
+## All Publications
+
+::: {#refs}
+:::
 
 
 ## Supporting Organizations
