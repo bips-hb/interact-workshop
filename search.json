@@ -11,14 +11,7 @@
     "href": "about.html#past-workshops",
     "title": "About",
     "section": "Past Workshops",
-    "text": "Past Workshops\nInterACT #1 was held November 13th – 16th 2023 in Munich.\nAmong many brainstorming session, it spawned the successfully published “CountARFactuals” project (Dandl et al. 2024), bridging counterfactual explanations and tree-based generative modeling.\nInterACT #2 was held September 23rd – 26th 2024 in Bremen. It was directly supported by the Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen, where (Kapar, Koenen, and Jullum 2025) combined generative modeling with interpretable machine learning."
-  },
-  {
-    "objectID": "about.html#all-publications",
-    "href": "about.html#all-publications",
-    "title": "About",
-    "section": "All Publications",
-    "text": "All Publications\n\n\nBaniecki, Hubert, Giuseppe Casalicchio, Bernd Bischl, and Przemyslaw Biecek. 2024. “On the Robustness of Global Feature Effect Explanations.” In Machine Learning and Knowledge Discovery in Databases. Research Track, edited by Albert Bifet, Jesse Davis, Tomas Krilavičius, Meelis Kull, Eirini Ntoutsi, and Indrė Žliobaitė, 125–42. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-70344-7_8.\n\n\nDandl, Susanne, Kristin Blesch, Timo Freiesleben, Gunnar König, Jan Kapar, Bernd Bischl, and Marvin N. Wright. 2024. “CountARFactuals – Generating Plausible Model-Agnostic Counterfactual Explanations with Adversarial Random Forests.” In Explainable Artificial Intelligence, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, 2155:85–107. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-63800-8_5.\n\n\nKapar, Jan, Niklas Koenen, and Martin Jullum. 2025. “What’s Wrong with Your Synthetic Tabular Data? Using Explainable AI to Evaluate Generative Models.” Presented at the The 3rd world conference on eXplainable artificial intelligence. https://arxiv.org/abs/2504.20687."
+    "text": "Past Workshops\nInterACT #1 was held November 13th – 16th 2023 in Munich.\nAmong many brainstorming session, it laid the foundation for Ewald et al. (2024) and spawned the “CountARFactuals” project Dandl et al. (2024), bridging counterfactual explanations and tree-based generative modeling.\nInterACT #2 was held September 23rd – 26th 2024 in Bremen. It was directly supported by the Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen, and among others lead to Kapar, Koenen, and Jullum (2025), combining generative modeling with interpretable machine learning."
   },
   {
     "objectID": "about.html#supporting-organizations",
@@ -26,6 +19,13 @@
     "title": "About",
     "section": "Supporting Organizations",
     "text": "Supporting Organizations\nInterACT is made possible by the following organizations whose support is greatly appreciated:\n\n\n\n\n\n\n\nLMU Munich\n\n\n\n\n\n\n\nLeibniz Institute for Prevention Research and Epidemiology - BIPS\n\n\n\n\n\n\n\nUniversity of Bremen\n\n\n\n\n\n\n\n\n\nMunich Center for Machine Learning\n\n\n\n\n\n\n\nMinds, Media, Machines"
+  },
+  {
+    "objectID": "about.html#all-publications",
+    "href": "about.html#all-publications",
+    "title": "About",
+    "section": "All Publications",
+    "text": "All Publications\n\n\nBaniecki, Hubert, Giuseppe Casalicchio, Bernd Bischl, and Przemyslaw Biecek. 2024. “On the Robustness of Global Feature Effect Explanations.” In Machine Learning and Knowledge Discovery in Databases. Research Track, edited by Albert Bifet, Jesse Davis, Tomas Krilavičius, Meelis Kull, Eirini Ntoutsi, and Indrė Žliobaitė, 125–42. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-70344-7_8.\n\n\nDandl, Susanne, Kristin Blesch, Timo Freiesleben, Gunnar König, Jan Kapar, Bernd Bischl, and Marvin N. Wright. 2024. “CountARFactuals – Generating Plausible Model-Agnostic Counterfactual Explanations with Adversarial Random Forests.” In Explainable Artificial Intelligence, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, 2155:85–107. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-63800-8_5.\n\n\nEwald, Fiona Katharina, Ludwig Bothmann, Marvin N. Wright, Bernd Bischl, Giuseppe Casalicchio, and Gunnar König. 2024. “A Guide to Feature Importance Methods for Scientific Inference.” In Explainable Artificial Intelligence, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, 440–64. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-63797-1_22.\n\n\nKapar, Jan, Niklas Koenen, and Martin Jullum. 2025. “What’s Wrong with Your Synthetic Tabular Data? Using Explainable AI to Evaluate Generative Models.” https://arxiv.org/abs/2504.20687."
   },
   {
     "objectID": "index.html",
