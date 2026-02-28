@@ -16,6 +16,8 @@ Among many brainstorming session, it laid the foundation for @ewald2024guidefeat
 InterACT #2 was held September 23rd -- 26th 2024 in Bremen.
 It was directly supported by the [Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen][mmmigs], and among others lead to @kapar2025whatswrongsynthetictabular, combining generative modeling with interpretable machine learning.
 
+InterACT #3 was held September 1st -- 4th 2025 in Munich.
+
 
 ## Supporting Organizations
 
