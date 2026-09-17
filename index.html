@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>InterACT Workshop on Interpretable Machine Learning – InterACT</title>
+<title>InterACT</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -20,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -28,19 +53,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-24621d995bfe4cdc50eeb66763b38006.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8103ca438f4183d9cc0fdb23e51ff6c0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-24621d995bfe4cdc50eeb66763b38006.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5218c9f4f1f9ff619ab62b969ef5e80b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ba87f9cc66bdd390e9d599291cabc7fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5218c9f4f1f9ff619ab62b969ef5e80b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -239,17 +263,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
+    <a class="nav-link" href="./index.html#workshops"> 
+<span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./index.html#supporting-organizations"> 
+<span class="menu-text">Supporters</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html#publications"> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/bips-hb/interact-workshop" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://github.com/bips-hb/interact-website" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -266,7 +294,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">InterACT Workshop on Interpretable Machine Learning</h1>
+<h1 class="title">InterACT</h1>
+<p class="subtitle lead">Workshop on Interpretable Machine Learning</p>
 </div>
 
 
@@ -283,22 +312,116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>InterACT #4 will be September 14th – 17th in Bremen!</p>
-<p>InterACT #3 was held September 1st – 4th 2025 at the Chair of Statistical Learning and Data Science in Munich.</p>
+<p><strong>InterACT</strong> is a collaborative workshop between the <a href="https://www.slds.stat.uni-muenchen.de/research/explainable-ai.html">interpretable machine learning / explainable AI group</a> led by <a href="https://www.slds.stat.uni-muenchen.de/people/casalicchio/">Dr.&nbsp;Giuseppe Casalicchio</a> of the Chair of Statistical Learning and Data Science (SLDS) of <a href="https://www.lmu.de/en/">LMU Munich</a> led by <a href="https://www.slds.stat.uni-muenchen.de/people/bischl/">Prof.&nbsp;Dr.&nbsp;Bernd Bischl</a> and the <a href="https://www.bips-institut.de/das-institut/abteilungen/biometrie-und-edv/emmy-noether-nachwuchsgruppe-beyond-prediction-statistical-inference-with-machine-learning.html">Emmy Noether Junior Research Group</a> led by <a href="https://www.bips-institut.de/en/contact/staff/research-fellow.html?MAid=1110&amp;cHash=9562bd57df9719623f7e6fcd7e1c693b">Prof.&nbsp;Dr.&nbsp;Marvin N. Wright</a> of the Leibniz Institute for Prevention Research and Epidemiology — BIPS.</p>
+<p>The workshop is aimed primarily at PhD students in the field of interpretable machine learning (IML) and explainable AI (XAI) and includes postdoctoral and senior researchers. It takes place annually over four days, alternating between Munich and Bremen.</p>
+<section id="workshops" class="level2">
+<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
+<section id="interact-4" class="level3 workshop">
+<h3 class="workshop anchored" data-anchor-id="interact-4">InterACT #4</h3>
+<p><span class="meta">Bremen, September 14 – 17, 2026</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/interact-3-group.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="A group photo of the InterACT #3 members in front of Schalenbrunnen in Munich"></p>
+<p><img src="img/interact-4-group.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A group photo of the InterACT #4 members in front of BIPS"></p>
 </figure>
 </div>
-<p>InterACT #2 was held September 23 – 26 2024 at the Leibniz Institute for Prevention Research and Epidemiology — BIPS in Bremen.</p>
+</section>
+<section id="interact-3" class="level3 workshop">
+<h3 class="workshop anchored" data-anchor-id="interact-3">InterACT #3</h3>
+<p><span class="meta">Munich, September 1 – 4, 2025</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/interact-2-group.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="A group photo of the InterACT #2 members in front of the BIPS building"></p>
+<p><img src="img/interact-3-group.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A group photo of the InterACT #3 members in front of Schalenbrunnen in Munich"></p>
 </figure>
 </div>
-<p>InterACT #1 was held September 13 – 16 2023 at the Chair of Statistical Learning and Data Science in Munich.</p>
+</section>
+<section id="interact-2" class="level3 workshop">
+<h3 class="workshop anchored" data-anchor-id="interact-2">InterACT #2</h3>
+<p><span class="meta">Bremen, September 23 – 26, 2024</span></p>
+<p>Directly supported by the <a href="https://minds-media-machines.de/en/promotionsprogramme/">Minds, Media, Machines Integrated Graduate School (MMMIGS) PhD Grant Bremen</a>. Among others, it led to <span class="citation" data-cites="kapar2025whatswrongsynthetictabular">Kapar et al. (<a href="#ref-kapar2025whatswrongsynthetictabular" role="doc-biblioref">2026</a>)</span>, combining generative modeling with interpretable machine learning.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/interact-2-group.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A group photo of the InterACT #2 members in front of the BIPS building"></p>
+</figure>
+</div>
+</section>
+<section id="interact-1" class="level3 workshop">
+<h3 class="workshop anchored" data-anchor-id="interact-1">InterACT #1</h3>
+<p><span class="meta">Munich, November 13 – 16, 2023</span></p>
+<p>Among many brainstorming sessions, it laid the foundation for <span class="citation" data-cites="ewald2024guidefeature">Ewald et al. (<a href="#ref-ewald2024guidefeature" role="doc-biblioref">2024</a>)</span> and spawned the “CountARFactuals” project <span class="citation" data-cites="dandl2024countarfactuals">(<a href="#ref-dandl2024countarfactuals" role="doc-biblioref">Dandl et al. 2024</a>)</span>, bridging counterfactual explanations and tree-based generative modeling.</p>
+</section>
+</section>
+<section id="supporting-organizations" class="level2">
+<h2 class="anchored" data-anchor-id="supporting-organizations">Supporting Organizations</h2>
+<p>InterACT is made possible by the following organizations whose support is greatly appreciated:</p>
+<div class="organizations">
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.lmu.de/en/"><img src="img/logos/lmu.svg" class="img-fluid figure-img"></a></p>
+<figcaption>LMU Munich</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.bips-institut.de/en/index.html"><img src="img/logos/bips.png" class="img-fluid figure-img"></a></p>
+<figcaption>Leibniz Institute for Prevention Research and Epidemiology - BIPS</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.uni-bremen.de/"><img src="img/logos/uni-bremen.webp" class="img-fluid figure-img"></a></p>
+<figcaption>University of Bremen</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://mcml.ai"><img src="img/logos/mcml.png" class="img-fluid figure-img"></a></p>
+<figcaption>Munich Center for Machine Learning</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://minds-media-machines.de"><img src="img/logos/mmm.png" class="img-fluid figure-img"></a></p>
+<figcaption>Minds, Media, Machines</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-baniecki2024robustnessglobal" class="csl-entry" role="listitem">
+Baniecki, Hubert, Giuseppe Casalicchio, Bernd Bischl, and Przemyslaw Biecek. 2024. <span>“On the&nbsp;<span>Robustness</span> of&nbsp;<span>Global Feature Effect Explanations</span>.”</span> In <em>Machine <span>Learning</span> and <span>Knowledge Discovery</span> in <span>Databases</span>. <span>Research Track</span></em>, edited by Albert Bifet, Jesse Davis, Tomas Krilavičius, Meelis Kull, Eirini Ntoutsi, and Indrė Žliobaitė. Springer Nature Switzerland. <a href="https://doi.org/10.1007/978-3-031-70344-7_8">https://doi.org/10.1007/978-3-031-70344-7_8</a>.
+</div>
+<div id="ref-dandl2024countarfactuals" class="csl-entry" role="listitem">
+Dandl, Susanne, Kristin Blesch, Timo Freiesleben, et al. 2024. <span>“<span>CountARFactuals</span> – <span>Generating Plausible Model-Agnostic Counterfactual Explanations</span> with <span>Adversarial Random Forests</span>.”</span> In <em>Explainable <span>Artificial Intelligence</span></em>, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert, vol. 2155. Springer Nature Switzerland. <a href="https://doi.org/10.1007/978-3-031-63800-8_5">https://doi.org/10.1007/978-3-031-63800-8_5</a>.
+</div>
+<div id="ref-ewald2024guidefeature" class="csl-entry" role="listitem">
+Ewald, Fiona Katharina, Ludwig Bothmann, Marvin N. Wright, Bernd Bischl, Giuseppe Casalicchio, and Gunnar König. 2024. <span>“A <span>Guide</span> to&nbsp;<span>Feature Importance Methods</span> for&nbsp;<span>Scientific Inference</span>.”</span> In <em>Explainable <span>Artificial Intelligence</span></em>, edited by Luca Longo, Sebastian Lapuschkin, and Christin Seifert. Springer Nature Switzerland. <a href="https://doi.org/10.1007/978-3-031-63797-1_22">https://doi.org/10.1007/978-3-031-63797-1_22</a>.
+</div>
+<div id="ref-kapar2025whatswrongsynthetictabular" class="csl-entry" role="listitem">
+Kapar, Jan, Niklas Koenen, and Martin Jullum. 2026. <span>“What’s <span>Wrong</span> with <span>Your Synthetic Tabular Data</span>? <span>Using Explainable AI</span> to <span>Evaluate Generative Models</span>.”</span> In <em>Explainable <span>Artificial Intelligence</span></em>, edited by Riccardo Guidotti, Ute Schmid, and Luca Longo, vol. 2578. Springer Nature Switzerland. <a href="https://doi.org/10.1007/978-3-032-08327-2_2">https://doi.org/10.1007/978-3-032-08327-2_2</a>.
+</div>
+</div>
+<!-- Links -->
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -722,7 +845,7 @@ ul.task-list li input[type="checkbox"] {
     </div>   
     <div class="nav-footer-center">
 <p>CC BY-NC-SA 4.0 2026, the InterACT workshop organizers</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/bips-hb/interact-workshop/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bips-hb/interact-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/bips-hb/interact-website/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bips-hb/interact-website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
