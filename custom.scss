@@ -1,18 +1,79 @@
 /*-- scss:defaults --*/
-$h2-font-size: 1.6rem !default;
-$headings-font-weight: 500 !default;
+// Brand colors: BIPS blue per institute presentation template, LMU green from lmu.svg
+$bips-blue: #1763AA;
+$lmu-green: #00883A;
+$slate: #2E3A46;
+
+$primary: $slate;
+$link-color: #3B5C7A;
+$link-hover-color: $bips-blue;
+$headings-color: $slate;
+
+$navbar-bg: #fff;
+$navbar-fg: $slate;
+$navbar-hl: $bips-blue;
+$navbar-padding-y: 0.3rem;
+$navbar-brand-font-size: 1.15rem;
+
+$h1-font-size: 2rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.2rem;
+$headings-font-weight: 600;
+
+$footer-bg: #f3f5f7;
+$footer-fg: #5b6773;
 
 /*-- scss:rules --*/
 
-img {
-  border-radius: 3%;
+// Bootstrap sets navbar padding on the element too, so repeat it here
+.navbar {
+  padding-top: $navbar-padding-y;
+  padding-bottom: $navbar-padding-y;
+  // both hosts, equal share, no ranking
+  border-bottom: 4px solid;
+  border-image: linear-gradient(90deg, $bips-blue 50%, $lmu-green 50%) 1;
+  .navbar-brand { font-weight: 600; letter-spacing: 0.02em; }
+  .nav-link.active { color: $slate !important; font-weight: 600; }
+}
+
+.quarto-title-block .title { line-height: 1.15; }
+.quarto-title-block .subtitle { color: #5b6773; font-size: 1.2rem; }
+
+h2 {
+  border-bottom: none;
+  padding-bottom: 0.25rem;
+  margin-top: 2.5rem;
+  &::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3px;
+    margin-top: 0.35rem;
+    background: $slate;
+  }
+}
+
+// Workshop entries on the front page
+section.workshop {
+  margin-bottom: 2.5rem;
+  h3 { margin-bottom: 0.2rem; }
+  .meta { color: #5b6773; font-weight: 600; }
+  figure { margin: 1rem auto 0; max-width: 75%; }
+  img { border-radius: 6px; box-shadow: 0 6px 20px rgba($slate, 0.18); }
 }
 
 .organizations {
   text-align: center;
+  // uniform logo row regardless of source aspect ratio
+  .figure-img { height: 110px; width: auto; max-width: 100%; object-fit: contain; }
+  figcaption { font-size: 0.85rem; }
+  img { border-radius: 0; box-shadow: none; }
+}
 
-  .figure-img {
-    max-width: 300px;
-    max-height: 200px;
-  }
+.quarto-dark {
+  .navbar { background: #222; .navbar-brand, .nav-link { color: #e6e9ec; } .nav-link.active { color: #fff !important; } }
+  h1, h2, .navbar-brand { color: #e6e9ec; }
+  h2::after { background: #8a97a5; }
+  .quarto-title-block .subtitle, .workshop .meta { color: #a3aeb9; }
+  #quarto-content a { color: #8fb3dd; &:hover { color: #6fd39a; } }
 }

@@ -5,3 +5,4 @@ _site
 *.Rproj
 
 **/*.quarto_ipynb
+.DS_Store

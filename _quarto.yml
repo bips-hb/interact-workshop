@@ -5,29 +5,33 @@ project:
     browser: false
     watch-inputs: true
 
-
 website:
   title: "InterACT"
   search: false
   back-to-top-navigation: true
-  repo-url: https://github.com/bips-hb/interact-workshop
+  repo-url: https://github.com/bips-hb/interact-website
   repo-actions: [edit, issue]
   navbar:
     left:
-      - href: index.qmd
-        text: News
-      - about.qmd
+      - href: index.qmd#workshops
+        text: Workshops
+      - href: index.qmd#supporting-organizations
+        text: Supporters
+      - href: index.qmd#publications
+        text: Publications
     tools:
       - icon: github
-        href: https://github.com/bips-hb/interact-workshop
+        href: https://github.com/bips-hb/interact-website
   page-footer: >
       CC BY-NC-SA 4.0 2026, the InterACT workshop organizers
 
 format:
   html:
-    theme: 
+    theme:
       light: [flatly, custom.scss]
       dark: [darkly, custom.scss]
     toc: false
+    grid:
+      body-width: 900px
+      margin-width: 0px
     bibliography: references.bib
-    # email-obfuscation: javscript
